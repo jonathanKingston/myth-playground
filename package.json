@@ -1,0 +1,26 @@
+{
+  "author": "Jonathan Kingston",
+  "name": "myth-playground",
+  "description": "Simple script to make a preview tool for Myth",
+  "license": "LGPL-3.0",
+  "url": "http://jonathankingston.co.uk/",
+  "version": "0.1.7",
+  "repository": {
+    "url": "https://github.com/jonathanKingston/myth-playground.git"
+  },
+  "main": "./lib/main",
+  "dependencies": {
+    "myth": "^1.0.4"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "jsdom": "^0.11.0",
+    "mocha": "^1.20.1"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}

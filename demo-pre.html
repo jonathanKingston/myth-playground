@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Myth playground - Demo</title>
+  </head>
+  <body>
+    <pre id="in">
+    span {
+      border:1px;
+      font-variant: all-small-caps;
+      border-radius: 2px;
+    }
+    </pre>
+    <div id="error"></div>
+    <pre id="out"></pre>
+    <script src="build/build.js" ></script>
+    <script>
+      var MythPlayground = require('myth-playground');
+      var inputElement = document.querySelector('#in');
+      var outputElement = document.querySelector('#out');
+      var errorElement = document.querySelector('#error');
+      var play = new MythPlayground({
+        inputElement: inputElement,
+        outputElement: outputElement,
+        errorElement: errorElement
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "myth-playground",
+  "repo": "jonathankingston/myth-playground",
+  "description": "Tiny module to demo the output of myth",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "segmentio/myth": "1.0.4"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "lib/main.js",
+  "scripts": [
+    "lib/main.js"
+  ]
+}
